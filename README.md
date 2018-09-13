@@ -18,4 +18,4 @@ There are two steps in creating fully functional NiceHash OS flash drive
 The procedure described above is a guide to prepare **one** NiceHash OS flash drive. If you plan to use the same setup on **multiple** machines then you can do the following. Go through the NiceHash OS flash drive creation steps as many times as how many NiceHash OS flash drives you need. After this step you will end up with a bunch of NiceHash OS flash drives which contain **invalid** (empty) configuration. Now use **valid** configuration from your initial NiceHash OS flash drive and copy it to all newly created NiceHash OS drives.
 
 ## Finish
-At this point should you have everything prepared to start using NiceHash OS. All you need to do now is to plug in NiceHash OS flash drive into your mining machine and turn it on!
+At this point you should have everything prepared to start using NiceHash OS. All you need to do now is to plug in NiceHash OS flash drive into your mining machine and turn it on!
