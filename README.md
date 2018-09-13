@@ -5,7 +5,7 @@ NiceHash OS is a minimal standalone [Linux](https://en.wikipedia.org/wiki/Linux 
 Even though there are no special prerequisites required to start using NiceHash OS, you will have to poses some basic technical skills and be familiar with operating system installed on your computer.
 
 ## Concepts
-NiceHash OS is an operating system which starts from USB flash drive where system is completely loaded into computer memory and needs no dedicated storage to run. It contains all the tools and drivers needed to bring your mining machine to life.
+NiceHash OS is an operating system which starts from USB flash drive where system is completely loaded into computer memory. It contains all the tools and drivers needed to bring your mining machine to life.
 
 NiceHash OS flash drive is divided into two partitions, `SYSTEM` and `NHOS`. `SYSTEM` partition contains bootloader, Linux kernel and [RAM](https://en.wikipedia.org/wiki/Random-access_memory "Random Access Memory") file system, while `NHOS` partition contains configuration data user needs to provide for system to work correctly.
 
