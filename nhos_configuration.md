@@ -40,22 +40,22 @@ To modify NiceHash OS configuration, open this configuration file with your pref
     }
 }
 ```
-Configuration is divided into different sections: **rig**, **access** and **network**. All the sections contain configuration entries which are named to be as self explanatory as possible.
- 
+Configuration is divided into different sections: **rig**, **access** and **network**. All the sections contain configuration entries which are named to be as self explanatory as possible. **BTC** address is the only mandatory information that needs to be present in the configuration and is part of the **rig** section, while **access** and **network** sections can be left empty or removed from the configuration file if not needed.
+
 ### Rig
 This section is used to configure NiceHas OS mining feature.<br/>
 
-`btc` - Your NiceHash BTC address. &nbsp;&nbsp;[**mandatory**]<br/>
+`btc` - Your NiceHash BTC address. &nbsp;&nbsp;[**<font style='color:red'>mandatory**</font>]<br/>
 `worker` - Name your mining machine (also known as *Rig name*). &nbsp;&nbsp;[**optional**]<br/>
 `group` - Put your mining machine into group. &nbsp;&nbsp;[**optional**]
 
 ### Access
-This section is used to configure user access to the mining machine. For security reasons only SSH access is possible. If you want to have access to your mining machine you must fill in this section, otherwise leave it empty.<br/>
+This section is used to configure SSH user for the remote network access to the mining machine. If you want to have remote network access to your mining machine you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
 `ssh` - SSH public key for user authentication.
 
 ### Network
-This section is used to configure the mining machine network settings. There are only wireless configuration entries here, and if you are using wireless infrastructure you must fill in this section, otherwise leave it empty.<br/>
+This section is used to configure mining machine network settings. There is only wireless configuration entry here, and if you are using wireless infrastructure you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
 `ssid` - [SSID](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier_(SSID) "Service Set Identifier") to provide the name for a wireless network access.<br/>
 `key` - Security key for wireless network access authentication.
@@ -64,7 +64,7 @@ This section is used to configure the mining machine network settings. There are
 For security reasons only [WPA](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access "Wi-Fi Protected Access") and [WPA2](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access "Wi-Fi Protected Access 2") security protocols are supported. 
 
 **Note**<br/>
-There are no configuration entries to configure wired network setting. Also there are no configuration entries to define static IP address to be assigned to the mining machine. No matter if you are running the mining machine on a wired or wireless infrastructure, IP address is always assigned dynamically using [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol "Dynamic Host Configuration Protocol") protocol.<br/><br/>
+There are no configuration entries to configure wired network setting. Also there are no configuration entries to define static IP address to be assigned to the mining machine. No matter if you are running mining machine on a wired or wireless infrastructure, IP address is always assigned dynamically using [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol "Dynamic Host Configuration Protocol") protocol.<br/><br/>
 
 **Example on how configuration might look like after modification**
 ```json
