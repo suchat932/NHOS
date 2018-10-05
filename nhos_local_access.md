@@ -1,5 +1,5 @@
 # NiceHash OS local access
-This guide provides information on how to access NiceHash OS locally.  create bootable flash drive with NiceHash OS. Following the instructions below, you will download NiceHash OS image (an `.img.gz` file), and then use special application that writes an image to a USB drive. You cannot simply copy the image file to a USB drive, you must use special software to write it properly.
+This guide provides information on how to access NiceHash OS locally.
 
 ## What you will need
 Here is the list of preconditions that must be met before you can proceed
@@ -23,4 +23,4 @@ System startup and application logs are located under `/var/log/nhos` directory.
 * `update.log` - contains information on NiceHash OS update service operations
 
 ## System usage
-There are no special usage cases logging in to the NiceHash OS system other than checking system configuration and logs in case something is not working as expected. Please remember that NiceHash OS is running completely from [RAM](https://en.wikipedia.org/wiki/Random-access_memory "Random Access Memory") and any changes you might have done to the system are lost on reboot. The only location where changes are persisted are the ones under `/mnt/nhos` directory.
+There are no special usage cases logging in to the NiceHash OS system other than checking system configuration and logs in case something is not working as expected. Please remember that NiceHash OS is running completely from computer memory and any changes you might have done to the system are lost on reboot. The only location where changes are persisted are the ones under `/mnt/nhos` directory.
