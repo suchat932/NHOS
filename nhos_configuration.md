@@ -46,13 +46,16 @@ Configuration is divided into different sections: **rig**, **access** and **netw
 This section is used to configure NiceHas OS mining feature.<br/>
 
 `btc` - Your NiceHash BTC address. &nbsp;&nbsp;[**<font style='color:red'>mandatory**</font>]<br/>
-`worker` - Name your mining machine (also known as *Rig name*). &nbsp;&nbsp;[**optional**]<br/>
+`worker` - Name your mining machine (sometimes refereed as `rig name`). &nbsp;&nbsp;[**optional**]<br/>
 `group` - Put your mining machine into group. &nbsp;&nbsp;[**optional**]
 
 ### Access
 This section is used to configure SSH user for the remote network access to the mining machine. If you want to have remote network access to your mining machine you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
 `ssh` - SSH public key for user authentication.
+
+**Note**<br/>
+There is no special configuration for local shell user access. More information on how to access mining machine locally is available on [NiceHash OS local access](nhos_local_access.md) page.
 
 ### Network
 This section is used to configure mining machine network settings. There is only wireless configuration entry here, and if you are using wireless infrastructure you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
