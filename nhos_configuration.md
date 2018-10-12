@@ -19,7 +19,6 @@ Any text editor is fine as long as it does not mess up the file format being edi
 NiceHash OS flash drive is divided into two partitions, `SYSTEM` and `NHOS` where `NHOS` partition contains configuration data for system to operate correctly. When NiceHas OS flash drive is inserted into your computer system should automatically detect `NHOS` partition and show it in system file manager (Windows Explorer, macOS Finder, Linux Nautilus, etc.) as disk on Windows or as a mounted device on macOS and Linux. Using your file manager, navigate to the location of the `NHOS` disk or mount point. There you will find a single configuration file named `configuration.txt`. 
 
 To modify NiceHash OS configuration, open this configuration file with your preferred file editor where you will see the following file content structure
-
 ```json
 {
     "rig": {
@@ -40,38 +39,24 @@ To modify NiceHash OS configuration, open this configuration file with your pref
     }
 }
 ```
+
 Configuration is divided into different sections: **rig**, **access** and **network**. All the sections contain configuration entries which are named to be as self explanatory as possible.
 
-<style>
-div.note {
-  color: #fff;
-  position: relative;
-  padding: 1em 1em;
-  margin: 1em auto;
-  background: #53A3B4;;
-}
-
-div.rounded {
-  -moz-border-radius: 5px 5px 5px 5px;
-  border-radius: 5px 5px 5px 5px;
-}
-</style>
-
-<div class="note rounded">
-<font style="font-weight:bold;">BTC</font> address is the only mandatory information that needs to be present in the configuration and is part of the <font style="font-weight:bold; font-style:italic;">rig</font> section, while <font style="font-weight:bold; font-style:italic;">access</font> and <font style="font-weight:bold; font-style:italic;">network</font> sections can be left empty or removed from the configuration file if not needed.
+<div style='color:#fff; position:relative; padding:1em 1em; margin:1em auto; background:#53A3B4; moz-border-radius:5px 5px 5px 5px; border-radius:5px 5px 5px 5px;'>
+<font style='font-weight:bold;'>BTC</font> address is the only mandatory information that needs to be present in the configuration and is part of the <font style='font-weight:bold; font-style:italic;'>rig</font> section, while <font style='font-weight:bold; font-style:italic;'>access</font> and <font style='font-weight:bold; font-style:italic;'>network</font> sections can be left empty or removed from the configuration file if not needed.
 </div>
 
 ### Rig
 This section is used to configure NiceHas OS mining feature.<br/>
 
-`btc` - Your NiceHash BTC address. &nbsp;&nbsp;[<font style="font-weight:bold; color:red;">mandatory</font>]<br/>
-`worker` - Name your mining machine (sometimes refereed as `rig name`). &nbsp;&nbsp;[<font style="font-weight:bold; color:green;">optional</font>]<br/>
-`group` - Put your mining machine into group. &nbsp;&nbsp;[<font style="font-weight:bold; color:green;">optional</font>]
+`btc` - Your NiceHash BTC address. &nbsp;&nbsp;[<font style='font-weight:bold; color:red;'>mandatory</font>]<br/>
+`worker` - Name your mining machine (sometimes refereed as `rig name`). &nbsp;&nbsp;[<font style='font-weight:bold; color:green;'>optional</font>]<br/>
+`group` - Put your mining machine into group. &nbsp;&nbsp;[<font style='font-weight:bold; color:green;'>optional</font>]
 
 ### Access
 This section is used to configure SSH user for the remote network access to the mining machine. If you want to have remote network access to your mining machine you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
-`ssh` - SSH public key for user authentication. &nbsp;&nbsp;[<font style="font-weight:bold; color:green;">optional</font>]
+`ssh` - SSH public key for user authentication. &nbsp;&nbsp;[<font style='font-weight:bold; color:green;'>optional</font>]
 
 **Note**<br/>
 There is no special configuration for local shell user access. More information on how to access mining machine locally is available on [NiceHash OS local access](nhos_local_access.md) page.
@@ -79,8 +64,8 @@ There is no special configuration for local shell user access. More information 
 ### Network
 This section is used to configure mining machine network settings. There is only wireless configuration entry here, and if you are using wireless infrastructure you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
-`ssid` - [SSID](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier_(SSID) "Service Set Identifier") to provide the name for a wireless network access. &nbsp;&nbsp;[<font style="font-weight:bold; color:green;">optional</font>]<br/>
-`key` - Security key for wireless network access authentication. &nbsp;&nbsp;[<font style="font-weight:bold; color:green;">optional</font>]
+`ssid` - [SSID](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier_(SSID) "Service Set Identifier") to provide the name for a wireless network access. &nbsp;&nbsp;[<font style='font-weight:bold; color:green;'>optional</font>]<br/>
+`key` - Security key for wireless network access authentication. &nbsp;&nbsp;[<font style='font-weight:bold; color:green;'>optional</font>]
 
 **Note**<br/>
 For security reasons only [WPA](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access "Wi-Fi Protected Access") and [WPA2](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access "Wi-Fi Protected Access 2") security protocols are supported. 
