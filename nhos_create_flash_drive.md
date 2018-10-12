@@ -30,7 +30,7 @@ There are three simple steps to write an image file using Etcher
 2. Select USB drive to write an image file to
 3. Start image writing process
 
-![](images/etcher.gif)
+![](graphics/etcher.gif)
 
 **Note**<br/>
 If you prefer to use command line tools instead, there are three simple steps to write an image file using `dd` tool
