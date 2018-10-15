@@ -30,3 +30,6 @@ At this point you should have everything prepared to start using NiceHash OS. Al
 
 **Note**<br/>
 Information on how to access mining machine locally is available on [NiceHash OS local access](nhos_local_access.md) page.
+
+**Note**<br/>
+Information on how to report bugs is available on [NiceHash OS bug reporting](nhos_bug_reporting.md) page.
