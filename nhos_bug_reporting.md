@@ -1,4 +1,4 @@
-# NiceHash OS local access
+# NiceHash OS bug reporting
 This guide provides information on how to report a bug concerning NiceHash OS.
 
 ## What you will need
