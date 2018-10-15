@@ -1,22 +1,25 @@
 # How to configure NiceHash OS
-This guide provides information on how to configure NiceHash OS to work properly once flash drive has been created. If you do not have NiceHash OS flash drive created yet then jump to [How to create NiceHash OS flash drive](nhos_create_flash_drive.md) page for further instructions.
+This guide provides information on how to correctly configure NiceHash OS to work once a flash drive has been created. If you do not have NiceHash OS flash drive created yet then jump to [How to create NiceHash OS flash drive](nhos_create_flash_drive.md) page for further instructions.
 
 
 ## What you will need
 Here is the list of preconditions that must be met before you can proceed
-* You have a **Windows**, **macOs** or **Linux** computer.
-* You have a NiceHash OS flash drive.
-* You have a text editor you are familiar with.<br/>
+* Computer with one of the following operating system: **Windows**, **MacOs** or **Linux**.
+* NiceHash OS flash drive.
+* Text editor you are familiar with.<br/>
 
 **Note**<br/>
-Any text editor is fine as long as it does not mess up the file format being edited. Depending on the operating system you are using you might consider some of the following options
+Any text editor is fine as long as it does not modify the file format being edited.
+Depending on the operating system, you can use the native text editor(Notepad for **Windows**, TextEdit for **MacOs**, Vi for **Linux**), or any of the 3rd party editors listed below:
 
-**Windows** - *Notepad*, [*Notepad++*](https://notepad-plus-plus.org/), [*PSPad*](http://www.pspad.com/), [*Atom*](https://atom.io/), [*Brackets*](http://brackets.io/), [*Visual Studio Code*](https://code.visualstudio.com/)<br/>
-**macOS** - *TextEdit*, [*Atom*](https://atom.io/), [*Brackets*](http://brackets.io/), [*Visual Studio Code*](https://code.visualstudio.com/)<br/>
-**Linux** - *vi*, [*nano*](https://www.nano-editor.org/), [*Geany*](https://www.geany.org/), [*KWrite*](https://www.kde.org/applications/utilities/kwrite/), [*Atom*](https://atom.io/), [*Brackets*](http://brackets.io/), [*Visual Studio Code*](https://code.visualstudio.com/)<br/>
+|         | [*Atom*](https://atom.io/) | [*Brackets*](http://brackets.io/) | [*Visual Studio Code*](https://code.visualstudio.com/) | [*Notepad++*](https://notepad-plus-plus.org/) | [*Nano*](https://www.nano-editor.org/) | [*Geany*](https://www.geany.org/) | [*KWrite*](https://www.kde.org/applications/utilities/kwrite/) |
+|---------|----------------------------|-----------------------------------|--------------------------------------------------------|-----------------------------------------------|----------------------------------------|-----------------------------------|----------------------------------------------------------------|
+| Windows |              x             |                 x                 |                            x                           |                       x                       |                                        |                                   |                                                                |
+| MacOs  |              x             |                 x                 |                            x                           |                                               |                                        |                                   |                                                                |
+| Linux   |              x             |                 x                 |                            x                           |                                               |                    x                   |                 x                 |                                x                               |
 
 ## NiceHash OS configuration
-NiceHash OS flash drive is divided into two partitions, `SYSTEM` and `NHOS` where `NHOS` partition contains configuration data for system to operate correctly. When NiceHas OS flash drive is inserted into your computer system should automatically detect `NHOS` partition and show it in system file manager (Windows Explorer, macOS Finder, Linux Nautilus, etc.) as disk on Windows or as a mounted device on macOS and Linux. Using your file manager, navigate to the location of the `NHOS` disk or mount point. There you will find a single configuration file named `configuration.txt`. 
+NiceHash OS flash drive is divided into two partitions, `SYSTEM` and `NHOS`, where `NHOS` partition contains the configuration data for system to operate correctly. When NiceHash OS flash drive is inserted into your computer, the system should automatically detect `NHOS` partition and show it in system file manager (Windows Explorer, macOS Finder, Linux Nautilus, etc.) as disk on Windows or as a mounted device on macOS and Linux. Using your file manager, navigate to the location of the `NHOS` disk or mount point. There you will find a single configuration file named `configuration.txt`. 
 
 To modify NiceHash OS configuration, open this configuration file with your preferred file editor where you will see the following file content structure
 ```json
@@ -45,14 +48,14 @@ Configuration is divided into different sections: _**rig**_, _**access**_ and _*
 **BTC** address is the only mandatory information that needs to be present in the configuration and is part of the _**rig**_ section, while _**access**_ and _**network**_ sections can be left empty or removed from the configuration file if not needed.
 
 ### Rig
-This section is used to configure NiceHas OS mining feature.<br/>
+This section is used to configure NiceHash OS mining feature.<br/>
 
 `btc` - Your NiceHash BTC address. &nbsp;&nbsp;_**[mandatory]**_<br/>
-`worker` - Name your mining machine (sometimes refereed as `rig name`). &nbsp;&nbsp;_**[optional]**_<br/>
+`worker` - Name your mining machine (sometimes referred to as `rig name`). &nbsp;&nbsp;_**[optional]**_<br/>
 `group` - Put your mining machine into group. &nbsp;&nbsp;_**[optional]**_
 
 ### Access
-This section is used to configure SSH user for the remote network access to the mining machine. If you want to have remote network access to your mining machine you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
+This section is used to configure SSH user for the remote network access to the mining machine. If you want to have remote network access to your mining machine, you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
 `ssh` - SSH public key for user authentication. &nbsp;&nbsp;_**[optional]**_
 
@@ -60,7 +63,7 @@ This section is used to configure SSH user for the remote network access to the 
 There is no special configuration for local shell user access. More information on how to access mining machine locally is available on [NiceHash OS local access](nhos_local_access.md) page.
 
 ### Network
-This section is used to configure mining machine network settings. There is only wireless configuration entry here, and if you are using wireless infrastructure you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
+This section is used to configure mining machine network settings. There is only wireless configuration entry here, and if you are using wireless infrastructure, you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
 `ssid` - [SSID](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier_(SSID) "Service Set Identifier") to provide the name for a wireless network access. &nbsp;&nbsp;_**[optional]**_<br/>
 `key` - Security key for wireless network access authentication. &nbsp;&nbsp;_**[optional]**_
