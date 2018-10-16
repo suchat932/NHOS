@@ -1,13 +1,12 @@
 # NiceHash OS local access
 This guide provides information on how to access NiceHash OS locally.
 
-## What you will need
-Here is the list of preconditions that must be met before you can proceed
-* You have access to the mining machine with a running NiceHash OS system
-* You have a keyboard and monitor connected to the mining machine.
+## Prerequisites
+* Access to the mining machine with a running NiceHash OS system
+* Keyboard and monitor connected to the mining machine.
 
 ## How to log in to the system
-On system start you are presented with a screen where you can enter access credentials to log in to the system. There is only one user configured for accessing NiceHash OS and there is no password required to log in locally. Just enter username `nhos` and hit _Enter_ key (_Return_ on some systems).
+On system start, you are presented with a screen where you can enter access credentials to log in to the system. There is only one user configured for accessing NiceHash OS and there is no password required to log in locally. Just enter username `nhos` and hit _Enter_ key (_Return_ on some systems).
 
 NiceHash OS is a minimal Linux operating system based on [Tiny Core Linux](http://tinycorelinux.net). If you are familiar with any Linux distribution, then you will feel comfortable using NiceHash OS as well.
 
