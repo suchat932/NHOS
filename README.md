@@ -3,7 +3,7 @@ NiceHash OS is a minimal standalone [Linux](https://en.wikipedia.org/wiki/Linux 
 
 ## Quick setup guide
 Below is a list of steps get NHOS up and running.
-* Download NiceHash OS image from the following address https://nhos-test.nicehash.com/latest/package.
+* Download NiceHash OS image from the following address https://nhos-test.nicehash.com/component?variant=test&name=image.
 * Flash downloaded NiceHash OS image to the USB flash drive.
 * Update NiceHash OS configuration file with your data.
 <br/><br/>

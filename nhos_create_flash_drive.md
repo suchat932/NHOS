@@ -20,7 +20,7 @@ There are many tools available for writing image files to USB drive.
 On systems like macOS and Linux users can also use command line tool `dd` to write image files to USB drive.
 
 ## Download NiceHash OS image
-You can get the latest NiceHash OS image using the following address https://nhos-test.nicehash.com/latest/package.
+You can get the latest NiceHash OS image using the following address https://nhos-test.nicehash.com/component?variant=test&name=image.
 
 ## Write NiceHash OS image to USB drive
 You can write NiceHash image to USB drive using aforementioned [Ethcher](https://etcher.io) tool. This tool can digest allot of different file formats. There is no need to decompress NiceHash OS image file beforehand.
