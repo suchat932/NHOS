@@ -3,8 +3,8 @@ NiceHash OS is a minimal standalone [Linux](https://en.wikipedia.org/wiki/Linux 
 
 ## Quick setup guide
 Below is a list of steps get NHOS up and running.
-* Download NiceHash OS image from the following address https://nhos-test.nicehash.com/component?variant=test&name=image.
-* Flash downloaded NiceHash OS image to the USB flash drive.
+* **Download NiceHash OS image** from our website.
+* **Flash downloaded NiceHash OS** image to the **USB flash drive**.
 * Update NiceHash OS configuration file with your data.
 <br/><br/>
 ## Detailed setup guide
@@ -12,20 +12,20 @@ Below is a list of steps get NHOS up and running.
 There are no special prerequisites required to start using NiceHash OS.
 
 ### Concepts
-NiceHash OS is an operating system which loads from USB flash drive and runs from computer memory. It contains all the tools and drivers needed to bring your mining machine to life.
+NiceHash OS is an **operating system** which loads from **USB flash drive** and **runs from computer memory**. It contains **all the tools and drivers needed** to bring your mining machine to life.
 
-NiceHash OS flash drive is divided into two partitions, `SYSTEM` and `NHOS`. `SYSTEM` partition contains bootloader, Linux kernel and [RAM](https://en.wikipedia.org/wiki/Random-access_memory "Random Access Memory") file system, while `NHOS` partition contains NiceHash OS configuration file.
+NiceHash OS flash drive is divided into two partitions, **`SYSTEM`** and **`NHOS`**. `SYSTEM` partition contains bootloader, Linux kernel and [RAM](https://en.wikipedia.org/wiki/Random-access_memory "Random Access Memory") file system, while `NHOS` partition contains NiceHash OS configuration file.
 
 ### Creating NiceHash OS flash drive
 There are two steps required to create a fully functional NiceHash OS flash drive
-1) Create a USB flash drive containing an operating system. Detailed instructions are available on [How to create NiceHash OS flash drive](nhos_create_flash_drive.md) page.
-2) Update NiceHash OS configuration file with your data. Detailed instructions are available on [How to configure NiceHash OS](nhos_configuration.md) page.
+1) **Create a USB flash** drive **containing an operating system**. Detailed instructions are available on [How to create NiceHash OS flash drive](nhos_create_flash_drive.md) page.
+2) **Update NiceHash OS configuration file with your data**. Detailed instructions are available on [How to configure NiceHash OS](nhos_configuration.md) page.
 
 **Note**<br/>
 This is a guide on how to prepare **one** NiceHash OS flash drive. If you plan to use the same setup on **multiple** machines then you can do the following. Go through the steps mentioned above for each NiceHash OS flash drives you need. After this, you will have multiple NiceHash OS flash drives which contain a **invalid** (empty) configuration. Now use **valid** configuration from your initial NiceHash OS flash drive and copy it to all newly created NiceHash OS drives.
 <br/><br/>
 ## Finish
-At this point you should have everything prepared to start using NiceHash OS. All you need to do now is to plug in NiceHash OS flash drive in to your mining machine and turn it on!
+At this point you should have everything prepared to start using NiceHash OS. All you need to do now is to **plug in NiceHash OS flash drive in to your mining machine and turn it on!**
 
 **Note**<br/>
 Information on how to access mining machine locally is available on [NiceHash OS local access](nhos_local_access.md) page.

@@ -5,8 +5,8 @@ This guide provides information on how to correctly configure NiceHash OS to wor
 ## What you will need
 Here is the list of preconditions that must be met before you can proceed
 * Computer with one of the following operating system: **Windows**, **MacOs** or **Linux**.
-* NiceHash OS flash drive.
-* Text editor you are familiar with.<br/>
+* **NiceHash OS flash drive**.
+* **Text editor** you are familiar with.<br/>
 
 **Note**<br/>
 Any text editor is fine as long as it does not modify the file format being edited.
@@ -19,7 +19,9 @@ Depending on the operating system, you can use the native text editor(Notepad fo
 | Linux   |              x             |                 x                 |                            x                           |                                               |                    x                   |                 x                 |                                x                               |
 
 ## NiceHash OS configuration
-NiceHash OS flash drive is divided into two partitions, `SYSTEM` and `NHOS`, where `NHOS` partition contains the configuration data for system to operate correctly. When NiceHash OS flash drive is inserted into your computer, the system should automatically detect `NHOS` partition and show it in system file manager (Windows Explorer, macOS Finder, Linux Nautilus, etc.) as disk on Windows or as a mounted device on macOS and Linux. Using your file manager, navigate to the location of the `NHOS` disk or mount point. There you will find a single configuration file named `configuration.txt`. 
+NiceHash OS flash drive is divided into two partitions, **`SYSTEM`** and **`NHOS`**, where `NHOS` partition contains the configuration data for system to operate correctly.
+
+When NiceHash OS flash drive is inserted into your computer, the system should **automatically detect `NHOS`** partition and **show it in system file manager** (Windows Explorer, macOS Finder, Linux Nautilus, etc.) as disk on Windows or as a mounted device on macOS and Linux. Using your file manager, navigate to the **location of the `NHOS` disk or mount point**. There you will find a **single configuration file** named **`configuration.txt`**.
 
 To modify NiceHash OS configuration, open this configuration file with your preferred file editor where you will see the following file content structure
 ```json
@@ -45,28 +47,28 @@ To modify NiceHash OS configuration, open this configuration file with your pref
 
 Configuration is divided into different sections: _**rig**_, _**access**_ and _**network**_. All the sections contain configuration entries which are named to be as self explanatory as possible.
 
-**BTC** address is the only mandatory information that needs to be present in the configuration and is part of the _**rig**_ section, while _**access**_ and _**network**_ sections can be left empty or removed from the configuration file if not needed.
+**BTC address** is the only **mandatory information** that needs to be present in the configuration and is part of the _rig_ section, while _access_ and _network_ sections can be left empty or removed from the configuration file if not needed.
 
 ### Rig
 This section is used to configure NiceHash OS mining feature.<br/>
 
-`btc` - Your NiceHash BTC address. &nbsp;&nbsp;_**[mandatory]**_<br/>
-`worker` - Name your mining machine (sometimes referred to as `rig name`). &nbsp;&nbsp;_**[optional]**_<br/>
-`group` - Put your mining machine into group. &nbsp;&nbsp;_**[optional]**_
+**`btc`** - Your NiceHash BTC address. &nbsp;&nbsp;_**[mandatory]**_<br/>
+**`worker`** - Name of your mining machine (sometimes referred to as `rig name`). Have in mind, that `worker` name is limited to alphanumeric characters from English alphabet, `a` to `z`, `A` to `Z`, `0` to `9` and characters `-` (hyphen), `_` (underscore). &nbsp;&nbsp;_**[optional]**_<br/>
+**`group`** - Put your mining machine into group. &nbsp;&nbsp;_**[optional]**_
 
 ### Access
-This section is used to configure SSH user for the remote network access to the mining machine. If you want to have remote network access to your mining machine, you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
+This section is used to **configure SSH** user for the **remote network access** to the mining machine. If you want to have remote network access to your mining machine, you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
-`ssh` - SSH public key for user authentication. &nbsp;&nbsp;_**[optional]**_
+**`ssh`** - SSH public key for user authentication. &nbsp;&nbsp;_**[optional]**_
 
 **Note**<br/>
 There is no special configuration for local shell user access. More information on how to access mining machine locally is available on [NiceHash OS local access](nhos_local_access.md) page.
 
 ### Network
-This section is used to configure mining machine network settings. There is only wireless configuration entry here, and if you are using wireless infrastructure, you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
+This section is used to **configure mining machine network settings**. There is only wireless configuration entry here, and if you are using wireless infrastructure, you must fill in this section, otherwise leave it empty or remove from configuration file.<br/>
 
-`ssid` - [SSID](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier_(SSID) "Service Set Identifier") to provide the name for a wireless network access. &nbsp;&nbsp;_**[optional]**_<br/>
-`key` - Security key for wireless network access authentication. &nbsp;&nbsp;_**[optional]**_
+**`ssid`** - [SSID](https://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identifier_(SSID) "Service Set Identifier") to provide the name for a wireless network access. &nbsp;&nbsp;_**[optional]**_<br/>
+**`key`** - Security key for wireless network access authentication. &nbsp;&nbsp;_**[optional]**_
 
 **Note**<br/>
 For security reasons only [WPA](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access "Wi-Fi Protected Access") and [WPA2](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access "Wi-Fi Protected Access 2") security protocols are supported. 
@@ -97,4 +99,4 @@ There are no configuration entries to configure wired network setting. Also ther
 ```
 <br/>
 
-When you are done with configuration modifications, save your changes and safely unplug NiceHash OS flash drive from your computer.
+When you are done with configuration modifications, **save your changes** and **safely unplug NiceHash OS flash drive** from your computer.
