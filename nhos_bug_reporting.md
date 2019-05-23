@@ -9,7 +9,7 @@ This guide provides information on how to report a bug concerning NiceHash OS.
 If you believe that you've found a bug that should be reported to NiceHash, then make sure to **describe it as precise as possible**. But be sure to also send us **a copy of the NiceHash OS system dump** file, as this will be of great help to our developers.
 
 There are two commands available which you can use to generate **NiceHash OS system dump** file.
-* **`nhos_system_dump_save`** - will generate **system dump file** and **save it to the USB flash key**.
+* **`nhos_system_dump_save`** - will generate **system dump file** and **save it to the USB flash drive**.
 * **`nhos_system_dump_push`** - will generate **system dump file** and **push it to the NiceHash network storage**.
 
 **Note**<br/>
