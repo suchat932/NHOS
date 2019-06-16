@@ -14,7 +14,7 @@ The process described below will delete any data currently on your flash drive. 
 
 ## Install software for writing to USB flash drive
 There are many tools available for writing image files to USB drive.
-[**Ethcher**](https://etcher.io) is a example of a easy to use, cross-platform image burning tool.
+[**Etcher**](https://etcher.io) is a example of a easy to use, cross-platform image burning tool.
 
 **Note**<br/>
 On systems like macOS and Linux users can also use command line tool `dd` to write image files to USB drive.
@@ -23,7 +23,7 @@ On systems like macOS and Linux users can also use command line tool `dd` to wri
 You can get **the latest NiceHash OS image** from our website.
 
 ## Write NiceHash OS image to USB drive
-You can **write NiceHash image to USB drive** using aforementioned [**Ethcher**](https://etcher.io) tool. This tool can digest allot of different file formats. There is no need to decompress NiceHash OS image file beforehand.
+You can **write NiceHash image to USB drive** using aforementioned [**Etcher**](https://etcher.io) tool. This tool can digest allot of different file formats. There is no need to decompress NiceHash OS image file beforehand.
 
 There are three simple steps to write an image file using Etcher
 1. Select NiceHash OS image file
