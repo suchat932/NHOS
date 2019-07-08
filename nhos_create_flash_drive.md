@@ -37,9 +37,9 @@ If you prefer to use command line tools instead, there are three simple steps to
 1. Decompress NiceHash OS image file<br/>
    `gunzip nhos-x.x.x.img.gz`
 2. Define output device to write an image file to<br/>
-   `/dev/sdax`
+   `/dev/sda`
 3. Start image writing process<br/>
-   `dd if=nhos-x.x.x.img of=//dev/sdaX bs=4m && sync`
+   `dd if=nhos-x.x.x.img of=/dev/sda bs=4M && sync`
 
 **Warning**<br/>
 Be careful defining output device, wrong usage of `dd` tool can lead to **irreversible damage to your system**!
