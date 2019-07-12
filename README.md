@@ -34,7 +34,7 @@ Information on how to access mining machine locally is available on [NiceHash OS
 Information on how to report bugs is available on [NiceHash OS bug reporting](nhos_bug_reporting.md) page.
 
 **Note**<br/>
-Advanced users who want to squeeze the last atom of power out of their graphics cards cant experiment with graphics cards overclocking. Beware that sometimes graphics cards overclocking can have a negative impact on system stability. Information on how this is done for NiceHash Miner is available in a separate document in [Manual OC settings](https://docs.google.com/document/d/1k0Qjo-dGYbjHWbYADOnrvErggqbaoVvXWhtPltd42zg/edit).
+Advanced users who want to squeeze the last atom of power out of their graphics cards cant experiment with graphics cards overclocking. Beware that sometimes graphics cards overclocking can have a negative impact on system stability. Information on how this is done for NiceHash Miner is available on [Manual OC settings](nhos_manual_oc_settings.md) page.
 
 ## Release notes
 For information on NiceHash OS release changes and bug fixes, proceed to the [release notes](nhos_release_notes.md) page.
