@@ -78,3 +78,4 @@ In the table below you can find IDs for every algorithm:
 | MTP              |41|
 | CrpytoNightR     |42|
 | CuckoCycle       |43|
+| GrinCuckarood29  |44|
