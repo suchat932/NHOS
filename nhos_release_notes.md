@@ -1,5 +1,9 @@
 # NiceHash OS release notes
 
+## NiceHash OS 1.0.4
+* Check all system partitions for issues on boot.
+* Make system dump more robust.
+
 ## NiceHash OS 1.0.3
 * NHM v3.0.3.5 (added support for grincuckarood29)
 * Gminer v1.51 (Grin29 hardfork).
