@@ -1,6 +1,8 @@
 # NiceHash OS release notes
 
 ## NiceHash OS 1.0.4
+* NHM v3.0.3.6 (added support for Beamv2).
+* Gminer v1.55 (Beam hardfork).
 * Check all system partitions for issues on boot.
 * Make system dump more robust.
 
