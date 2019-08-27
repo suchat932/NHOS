@@ -79,3 +79,4 @@ In the table below you can find IDs for every algorithm:
 | CrpytoNightR     |42|
 | CuckoCycle       |43|
 | GrinCuckarood29  |44|
+| Beamv2           |45|
