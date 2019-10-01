@@ -80,3 +80,4 @@ In the table below you can find IDs for every algorithm:
 | CuckoCycle       |43|
 | GrinCuckarood29  |44|
 | Beamv2           |45|
+| X16Rv2           |46|
