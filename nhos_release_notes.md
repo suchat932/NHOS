@@ -1,5 +1,9 @@
 # NiceHash OS release notes
 
+## NiceHash OS 1.1.1
+* Fixed an issue with Xorg configuration is not being specific enough on rigs with only one Nvidia graphics card.
+* Fixed an issue with Beamv1 mining not working properly.
+
 ## NiceHash OS 1.1.0
 * Updated Linux kernel to v5.0.21.
 * Updated AMD GPU driver to v19.30.
