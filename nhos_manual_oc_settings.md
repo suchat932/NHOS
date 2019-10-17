@@ -9,25 +9,25 @@ memory_clocks: "default"
 ```
 
 ## TDP (valid for both NVIDIA and AMD)
-TDP is set as a percentage parameter for both NVIDIA and AMD graphics cards. If you want to change TDP you have to change the “default” state.
+TDP is set as a percentage parameter for both NVIDIA and AMD graphics cards. If you want to change TDP you have to change the ```“default”``` value.
 
-For example, if you want to change the TDP to 85% then you have to change it to ```“85”```.
+For example, if you want to set TDP to 85% then you have to change this value to ```"tdp": 85```.
 
-For example, if you want to change the TDP to 110%, then you have to change it to ```“110”```.
+For example, if you want to set TDP to 110%, then you have to change this value to ```"tdp": 110```.
 
 ## Core_clocks & memory_clocks (NVIDIA)
-If you want to change core and memory clocks for **NVIDIA graphics cards** you have to take the “default” state as a base point.
+If you want to change core and memory clocks for **NVIDIA graphics cards** you have to change the ```“default”``` value. Value is relative to card default value.
 
-For example, if you want to raise your core or memory clock for 50 Hz then you have to enter: ```“50”```.
+For example, if you want to raise your core or memory clock for 50 Hz then you have to change this value to ```"core_clocks": 50``` or ```"memory_clocks": 50```.
 
-For example, if you want to lower your core or memory clock for 50 Hz then you have to enter: ```“-50”```.
+For example, if you want to lower your core or memory clock for 50 Hz then you have to change this value to ```"core_clocks": -50``` or ```"memory_clocks": -50```.
 
 ## Core_clocks & memory_clocks (AMD)
-If you want to change core and memory clocks for **AMD graphics cards** you have to take the “default” state as a current clock state.
+If you want to change core and memory clocks for **AMD graphics cards** you have to change the ```“default”``` value. Values for AMD cards are absolute.
 
-For example, if you want to raise your core or memory clock from 1800 to 1850 Hz then you have to enter ```“1850”```.
+For example, if you want to raise your core or memory clock from 1800 to 1850 Hz then you have change this value to ```"core_clocks": 1850``` or ```"memory_clocks": 1850```.
 
-For example, if you want to lower your core or memory clock from 1800 to 1750Hz then you have to enter ```“1750”```.
+For example, if you want to lower your core or memory clock from 1800 to 1750 Hz then you have change this value to ```"core_clocks": 1750``` or ```"memory_clocks": 1750```.
 
 ## Algorithm IDs
 In the table below you can find IDs for every algorithm:
