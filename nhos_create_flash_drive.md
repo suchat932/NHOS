@@ -13,24 +13,20 @@ For creating NiceHash OS flash drive, you will need elevated privileges on your 
 The process described below will delete any data currently on your flash drive. Make sure to back up your flash drive's data to another storage location before proceeding.
 
 ## Install software for writing to USB flash drive
-There are many tools available for writing image files to USB drive.
-[**Etcher**](https://etcher.io) is a example of a easy to use, cross-platform image burning tool.
+There are many tools available for writing image files to USB drive. NiceHash is providing specially crafted [**NiceHash Flash Tool**](https://github.com/nicehash/NHOS-Flash-Tool) just for preparing bootable NiceHash OS flash drive(s). If you prefer to use something else there are a number of well established tools like [Etcher](https://etcher.io), easy to use cross-platform image burning tool.
 
 **Note**<br/>
 On systems like macOS and Linux users can also use command line tool `dd` to write image files to USB drive.
 
-## Download NiceHash OS image
-You can get **the latest NiceHash OS image** from our website.
+## Preparing NiceHash OS flash drive
 
-## Write NiceHash OS image to USB drive
-You can **write NiceHash image to USB drive** using aforementioned [**Etcher**](https://etcher.io) tool. This tool can digest allot of different file formats. There is no need to decompress NiceHash OS image file beforehand.
+### 1. Using NiceHash Flash Tool (preferred)
+[**NiceHash Flash Tool**](https://github.com/nicehash/NHOS-Flash-Tool) tool not only provides cross-platform image burning capabilities, but it is also extremely easy to use. There is no need to download NiceHash OS image beforehand, this tool will do this for you.
 
-There are three simple steps to write an image file using Etcher
-1. Select NiceHash OS image file
-2. Select USB drive to write an image file to
-3. Start image writing process
+![](graphics/nhos-flash-tool.png)
 
-![](graphics/etcher.gif)
+### 2. Using other tools
+When using tools other that **NiceHash Flash Tool**, you need to download **the latest NiceHash OS image** from our website beforehand and then write it to USB drive using aforementioned Etcher or any other similar tool.
 
 **Note**<br/>
 If you prefer to use command line tools instead, there are three simple steps to write an image file using `dd` tool
