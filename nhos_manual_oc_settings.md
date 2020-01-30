@@ -83,3 +83,4 @@ In the table below you can find IDs for every algorithm:
 | X16Rv2           |46|
 | Eaglesong        |48|
 | GrinCuckaroom29  |49|
+| GrinCuckatoo32   |50|
