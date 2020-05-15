@@ -84,3 +84,5 @@ In the table below you can find IDs for every algorithm:
 | Eaglesong        |48|
 | GrinCuckaroom29  |49|
 | GrinCuckatoo32   |50|
+| handshake        |51|
+| kawpow           |52|
