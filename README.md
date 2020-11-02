@@ -1,4 +1,4 @@
-# NiceHash OS (beta)
+# NiceHash OS
 NiceHash OS is a minimal standalone [Linux](https://en.wikipedia.org/wiki/Linux "Linux") operating system containing everything you need to start mining crypto-currency efficiently.
 
 ## Quick setup guide
@@ -32,6 +32,12 @@ Information on how to access mining machine locally is available on [NiceHash OS
 
 **Note**<br/>
 Information on how to report bugs is available on [NiceHash OS bug reporting](nhos_bug_reporting.md) page.
+
+**Note**<br/>
+Information on how to customize fan control table is available on [NiceHash OS fan control](nhos_fan_control.md) page.
+
+**Note**<br/>
+Information on how to persist miner log files to USB flash drive is available on [NiceHash OS log persist](nhos_log_persist.md) page.
 
 **Note**<br/>
 Advanced users who want to squeeze the last atom of power out of their graphics cards cant experiment with graphics cards overclocking. Beware that sometimes graphics cards overclocking can have a negative impact on system stability. Information on how this is done for NiceHash Miner is available on [Manual OC settings](nhos_manual_oc_settings.md) page.
