@@ -21,8 +21,7 @@ To modify NiceHash OS configuration, open this configuration file with your pref
         "btc": "",
         "worker": "",
         "group": ""
-    },
-    ...
+    }
 }
 ```
 
@@ -34,7 +33,6 @@ To configure mining location you must add the `location` option to the `rig` sec
         "worker": "",
         "group": "",
         "location": "usa"
-    },
-    ..
+    }
 }
 ```
