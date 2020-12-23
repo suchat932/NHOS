@@ -1,39 +1,10 @@
 # NiceHash OS local access
 This guide provides information on how to configure log files to be persisted to NiceHash OS flash drive.
 
-## What you will need
-Here is the list of preconditions that must be met before you can proceed
-* Computer with one of the following operating system: **Windows**, **MacOs** or **Linux**.
-* **NiceHash OS flash drive**.
-* **Text editor** you are familiar with.<br/>
-
 ## NiceHash OS configuration
-NiceHash OS flash drive is divided into two partitions, **`SYSTEM`** and **`NHOS`**, where `NHOS` partition contains the configuration data for system to operate correctly.
+If you need additional information on how NiceHash OS configuration file looks like and how to modify it, please take a look at the [How to configure NiceHash OS](nhos_configuration.md) page.
 
-When NiceHash OS flash drive is inserted into your computer, the system should **automatically detect `NHOS`** partition and **show it in system file manager** (Windows Explorer, macOS Finder, Linux Nautilus, etc.) as disk on Windows or as a mounted device on macOS and Linux. Using your file manager, navigate to the **location of the `NHOS` disk or mount point**. There you will find a **single configuration file** named **`configuration.txt`**.
-
-To modify NiceHash OS configuration, open this configuration file with your preferred file editor where you will see the following file content structure
-```json
-{
-    "rig": {
-        "btc": "",
-        "worker": "",
-        "group": ""
-    },
-    "access": {
-        "ssh": {
-            "key": ""
-        }
-    },
-    "network": {
-        "wireless": {
-            "ssid": "",
-            "key": ""
-        }
-    }
-}
-```
-
+## Configure og files persistance
 To configure log files to be persisted to NiceHash OS flash drive you must add the log persistance setting to JSON configuration file as specified below
 ```json
 {
