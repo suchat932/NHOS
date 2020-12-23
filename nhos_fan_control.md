@@ -1,11 +1,5 @@
-# NiceHash OS local access
+# NiceHash OS fan control
 This guide provides information on how to configure custom GPU fan control table.
-
-## What you will need
-Here is the list of preconditions that must be met before you can proceed
-* Computer with one of the following operating system: **Windows**, **MacOs** or **Linux**.
-* **NiceHash OS flash drive**.
-* **Text editor** you are familiar with.<br/>
 
 ## NiceHash OS configuration
 If you need additional information on how NiceHash OS configuration file looks like and how to modify it, please take a look at the [How to configure NiceHash OS](nhos_configuration.md) page.
