@@ -43,4 +43,4 @@ Information on how to persist miner log files to USB flash drive is available on
 Information on how to setup user provided shell scripts that are executed on system boot is available on [NiceHash OS boot scripts](nhos_boot_scripts.md) page.
 
 **Note**<br/>
-Advanced users who want to squeeze the last atom of power out of their graphics cards cant experiment with graphics cards overclocking. Beware that sometimes graphics cards overclocking can have a negative impact on system stability. Information on how this is done for NiceHash Miner is available on [Manual OC settings](nhos_manual_oc_settings.md) page.
+Advanced users who want to squeeze the last atom of power out of their graphics cards can experiment with graphics cards overclocking. Beware that sometimes graphics cards overclocking can have a negative impact on system stability. Information on how this is done for NiceHash Miner is available on [Manual OC settings](nhos_manual_oc_settings.md) page.
